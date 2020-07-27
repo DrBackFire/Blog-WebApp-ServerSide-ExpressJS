@@ -1,0 +1,21 @@
+body {
+    background: #eeeeee;
+}
+
+.login-container {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.login-card {
+    height: 500px;
+}
+
+.login-links a {
+    margin: 10px;
+}
+
+.table-btn {
+    float: left;
+    margin-right: 10px;
+}
