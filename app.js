@@ -1,5 +1,4 @@
 const express = require("express")
-const serverless = require("serverless-http")
 const mongoose = require("mongoose")
 const dotenv = require("dotenv")
 const morgan = require("morgan")
