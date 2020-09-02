@@ -2,9 +2,6 @@
   "name": "Blog-WebApp-ServerSide",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "14.x"
-  },
   "main": "app.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
@@ -24,6 +21,7 @@
     "moment": "^2.27.0",
     "mongoose": "^5.9.19",
     "morgan": "^1.10.0",
+    "netlify-lambda": "^2.0.1",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0"
   },
