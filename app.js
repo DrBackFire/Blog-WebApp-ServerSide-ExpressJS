@@ -91,7 +91,7 @@ app.use("/", require("./routes/index"))
 app.use("/auth", require("./routes/auth"))
 app.use("/blogs", require("./routes/blogs"))
 
-const PORT = process.env || 3000
+const PORT = process.env.PORT || 3000
 app.listen(PORT, () =>
   console.log(`App is running in ${process.env.NODE_ENV} on port ${PORT}`)
 )
